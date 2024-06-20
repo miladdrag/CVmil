@@ -6,7 +6,7 @@ body {
     padding: 0;
     position: relative;
     overflow: hidden;
-    height: 100vh; /* Set height for full screen */
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,14 +15,14 @@ body {
 .resume-container {
     width: 90%;
     max-width: 900px;
-    height: 90%; /* Set height for scrollable container */
+    height: 90%;
     background: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow-y: auto; /* Enable vertical scroll */
+    overflow-y: auto;
     z-index: 1;
     position: relative;
-    padding: 20px; /* Add some padding inside the container */
+    padding: 20px;
 }
 
 .header {
@@ -33,7 +33,7 @@ body {
     padding: 20px;
     position: sticky;
     top: 0;
-    z-index: 2; /* Ensure header stays on top */
+    z-index: 2;
 }
 
 .profile-img {
